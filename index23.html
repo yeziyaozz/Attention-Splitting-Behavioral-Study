@@ -223,7 +223,7 @@
     timeline.push({
       type: jsPsychHtmlKeyboardResponse,
       stimulus:`<div style="max-width:900px; margin:auto;">
-                  <p>After pressing any key, you will complete 2 practice trials. Each practice trial is three instances of the stopping game. Use this time to familiarize yourself with the game.</p>
+                  <p>After pressing any key, you will complete 3 practice trials. Each practice trial is three instances of the stopping game. Use this time to familiarize yourself with the game.</p>
                   <p>Press any key to begin the practice trials.</p>
                 </div>`
     });
@@ -292,7 +292,7 @@
     return `
       <div style="max-width:900px; margin:auto; text-align:center;">
         <p><strong>Practice Complete!</strong></p>
-        <p>Your average stopping error across 6 spins was <strong>${avgError}°</strong>.</p>
+        <p>Your average stopping error across 9 spins was <strong>${avgError}°</strong>.</p>
         ${dotTxt}
         <p>Press any key to begin the main experiment.</p>
       </div>`;
